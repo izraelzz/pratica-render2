@@ -4,6 +4,10 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 
+const message =
+    process.env.MESSAGE ||
+    "Deploy funcionando!";
+
 // rota principal
 app.get("/", (req, res) => {
     res.send(`
