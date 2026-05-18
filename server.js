@@ -12,7 +12,7 @@ const message =
 app.get("/", (req, res) => {
     res.send(`
         <h1>Servidor Express no Render</h1>
-        <p>Deploy funcionando!</p>
+        <p>${message}</p>
     `);
 });
 
