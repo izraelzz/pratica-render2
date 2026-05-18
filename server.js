@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000;
 
 const message =
     process.env.MESSAGE ||
-    "Deploy funcionando!";
+    "Deploy funcionando atualizado!";
 
 // rota principal
 app.get("/", (req, res) => {
